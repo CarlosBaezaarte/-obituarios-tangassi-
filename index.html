@@ -1,63 +1,44 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2487.3">
-  <style type="text/css">
-    body {background-color: #f6f6f6}
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Arial; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Arial; -webkit-text-stroke: #000000; min-height: 14.0px}
-    span.s1 {font-kerning: none}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obituarios Tangassi</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://procaf.com.mx/APIs/Obituarios/v1.0.0/obituario.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
 </head>
 <body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
-<p class="p1"><span class="s1">&lt;html lang="es"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;head&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;title&gt;Obituarios Tangassi&lt;/title&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script src="https://code.jquery.com/jquery-3.6.0.min.js"&gt;&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script src="https://procaf.com.mx/APIs/Obituarios/v1.0.0/obituario.min.js"&gt;&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;style&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>body {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>font-family: Arial, sans-serif;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>background-color: #f8f8f8;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>margin: 0;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>padding: 0;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
-<p class="p1"><span class="s1">&lt;body&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div id="pf-ec"&gt;&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>$(document).ready(function(){</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>$('#pf-ec').OBD({</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>key: "eHZVWmlKVnJzeFprU1dVWDlaNEg=",</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>cant: 10,</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>options: { grid: 2 },</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>styles: {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>background: "#ffffff",</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>border: "1px solid #ddd",</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>color: "#333",</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>name-color: "#000",</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>name-size: "16px",</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>phrase: "En memoria de...",</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>phrase-color: "#555",</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>phrase-size: "14px",</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>date-color: "#777",</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>date-size: "12px"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>});</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>});</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+    <h2>Obituarios Tangassi</h2>
+    <div id="pf-ec"></div>
+
+    <script>
+        $(document).ready(function(){
+            $('#pf-ec').OBD({
+                key: "eHZVWmlKVnJzeFprU1dVWDlaNEg=",
+                cant: 10,
+                options: { grid: 2 },
+                styles: {
+                    background: "#ffffff",
+                    border: "1px solid #ddd",
+                    color: "#333",
+                    name-color: "#000",
+                    name-size: "16px",
+                    phrase: "En memoria de...",
+                    phrase-color: "#555",
+                    phrase-size: "14px",
+                    date-color: "#777",
+                    date-size: "12px"
+                }
+            });
+        });
+    </script>
 </body>
 </html>
